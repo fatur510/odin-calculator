@@ -1,0 +1,141 @@
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numberBorder {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+#display {
+    display: flex;
+    justify-content: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buttonBorder {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px; 
+  width: 300px;
+  height: 300px;
+  background-color: rgb(230, 207, 29);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.buttonOperator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#divideButton {
+    line-height: 3.5;
+    padding: 0 28px;
+    background-color: rgb(0, 42, 255);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+#multipleButton {
+    line-height: 3.4;
+    padding: 0 25px;
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+#addButton {
+    line-height: 3.5;
+    padding: 0 26px;
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+#subButton {
+    line-height: 3.7;
+    padding: 0 29px;
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonNumber1 button{
+    line-height: 3.6;
+    padding: 0 28px;
+    background-color: orangered;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonNumber2 button {
+    line-height: 3.6;
+    padding: 0 28px;
+    background-color: orangered;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonNumber3 button {
+    line-height: 3.6;
+    padding: 0 28px;
+    background-color: orangered;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonNumber4 button {
+    line-height: 3.6;
+    padding: 0 28px;
+    background-color: orangered;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+#clearButton {
+    background-color: black;
+}
+
+#equalButton {
+    background-color: blue;
+}

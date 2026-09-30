@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Calculator</h1>
+        <div class="numberBorder">
+            <h1 id="display"></h1>
+        </div>
+        <div class="buttonBorder">
+            <div class="buttonNumber">
+               <div class="buttonNumber1">
+                    <button class="btn-num" type="button" value="7">7</button>
+                    <button class="btn-num" type="button" value="8">8</button>
+                    <button class="btn-num" type="button" value="9">9</button>
+                </div>
+                <div class="buttonNumber2">
+                    <button class="btn-num" type="button" value="4">4</button>
+                    <button class="btn-num" type="button" value="5">5</button>
+                    <button class="btn-num" type="button" value="6">6</button>
+                </div>
+                <div class="buttonNumber3">
+                    <button class="btn-num" type="button" value="1">1</button>
+                    <button class="btn-num" type="button" value="2">2</button>
+                    <button class="btn-num" type="button" value="3">3</button>
+                </div>
+                <div class="buttonNumber4">
+                    <button type="button" id="clearButton">C</button>
+                    <button type="button" value="0" class="btn-num">0</button>
+                    <button type="button" id="equalButton">=</button>
+                </div> 
+            </div>
+                <div class="buttonOperator">
+                <button id="divideButton" type="button" class="btn-op" value="/">/</button>
+                <button id="multipleButton" type="button" class="btn-op" value="*">*</button>
+                <button id="addButton" type="button" class="btn-op" value="+">+</button>
+                <button id="subButton" type="button" class="btn-op" value="-">-</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
